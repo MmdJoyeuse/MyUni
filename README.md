@@ -56,6 +56,15 @@
 | **پردازش پس‌زمینه** | Android WorkManager & AlarmManager |
 | **ارتباطات شبکه** | Ktor Client & Kotlinx Serialization |
 
+## Screenshots
+
+![Screenshot 1](screenshots/file_00000000ad00820c8b40b3295ca4310c.png)
+
+![Screenshot 2](screenshots/file_00000000f18c81f5a5fc48719a20209c.png)
+
+![Screenshot 3](screenshots/file_00000000c52481fed31924fe.png)
+
+![Screenshot 4](screenshots/file_00000000443081f4b11901ccd6207b83.png)
 ---
 
 
