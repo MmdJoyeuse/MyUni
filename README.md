@@ -58,7 +58,6 @@
 | :--- | :--- |
 | **زبان توسعه** | [Kotlin](https://kotlinlang.org/) |
 | **رابط کاربری (UI)** | [Jetpack Compose](https://developer.android.com/jetpack/compose) + Material 3 |
-| **طراحی اختصاصی** | Liquid Glass Design System |
 | **بک‌اند & پایگاه‌داده** | [Supabase](https://supabase.com/) (Postgrest, Storage) |
 | **پردازش فایل PDF** | [PdfBox Android](https://github.com/TomRous3/PdfBox-Android) |
 | **پردازش پس‌زمینه** | Android WorkManager & AlarmManager |
