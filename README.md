@@ -51,12 +51,6 @@
   - چک کردن خودکار آپدیت‌های جدید برنامه (`AppUpdateHelper`).
   - پنل مدیریت (Admin Panel).
 
-- 🎨 **رابط کاربری شیک و مدرن (Liquid Glass UI):**
-  - طراحی شده با **Jetpack Compose** و **Material 3**.
-  - افکت‌های بصری شیشه‌ای متمایز (`LiquidGlass Design System`).
-  - پشتیبانی کامل از زبان فارسی و راست‌چین (RTL).
-
----
 
 ## 🛠 تکنولوژی‌ها و کتابخانه‌ها (Tech Stack)
 
@@ -72,49 +66,6 @@
 
 ---
 
-## 🚀 راهنمای نصب و اجرای پروژه (Setup & Build)
-
-### پیش‌نیازها:
-* **Android Studio:** نسخه Ladybug (2024.2.1) یا جدیدتر
-* **JDK:** نسخه 11 یا بالاتر
-* **Min SDK:** نسخه 24 (اندروید 7.0)
-
-### مراحل اجرا:
-1. پروژه را کلون کنید:
-   ```bash
-   git clone https://github.com/ShayanEndless/MyUni.git
-   ```
-2. پروژه را در **Android Studio** باز کنید.
-3. اجازه دهید گرادل (Gradle) نیازمندی‌ها را سینک کند.
-4. پروژه را روی شبیه‌ساز (Emulator) یا گوشی واقعی اجرا کنید.
-
----
-
-## 🔒 امنیت و پیکربندی Supabase
-برای استفاده از قابلیت‌های آنلاین، فایل `SupabaseConfig.kt` را در مسیر زیر ایجاد کرده و کلیدهای پروژه Supabase خود را در آن قرار دهید:
-
-```kotlin
-// app/src/main/java/com/example/myuni/supabase/SupabaseConfig.kt
-package com.example.myuni.supabase
-
-import io.github.jan.supabase.SupabaseClient
-import io.github.jan.supabase.createSupabaseClient
-import io.github.jan.supabase.postgrest.Postgrest
-
-object SupabaseConfig {
-    const val SUPABASE_URL = "YOUR_SUPABASE_URL"
-    const val SUPABASE_ANON_KEY = "YOUR_SUPABASE_ANON_KEY"
-
-    val client: SupabaseClient by lazy {
-        createSupabaseClient(
-            supabaseUrl = SUPABASE_URL,
-            supabaseKey = SUPABASE_ANON_KEY
-        ) {
-            install(Postgrest)
-        }
-    }
-}
-```
 
 ---
 
