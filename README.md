@@ -11,11 +11,25 @@
 </p>
 
 <p align="center">
+  <a href="https://github.com/ShayanEndless/MyUni/releases/latest">
+    <img src="https://img.shields.io/badge/📥_دانلود_مستقیم_فایل_APK-v1.0.0-2EA44F?style=for-the-badge&logo=android&logoColor=white" alt="Download APK" />
+  </a>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Kotlin-1.9+-7F52FF?style=for-the-badge&logo=kotlin&logoColor=white" />
   <img src="https://img.shields.io/badge/Jetpack_Compose-Material_3-4285F4?style=for-the-badge&logo=android&logoColor=white" />
   <img src="https://img.shields.io/badge/Supabase-Backend-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" />
   <img src="https://img.shields.io/badge/Min_SDK-24_(Android_7.0)-3DDC84?style=for-the-badge&logo=android&logoColor=white" />
 </p>
+
+---
+
+## 📱 دانلود برنامه (Download App)
+
+برای دانلود مستقیم آخرین نسخه فایل نصب اندروید (APK)، روی لینک زیر کلیک کنید:
+
+➡️ **[دانلود آخرین نسخه APK برنامه (v1.0.0)](https://github.com/ShayanEndless/MyUni/releases/tag/v1.0.0)**
 
 ---
 
