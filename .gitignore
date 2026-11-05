@@ -1,15 +1,26 @@
 *.iml
 .gradle
 /local.properties
-/.idea/caches
-/.idea/libraries
-/.idea/modules.xml
-/.idea/workspace.xml
-/.idea/navEditor.xml
-/.idea/assetWizardSettings.xml
+local.properties
 .DS_Store
 /build
 /captures
 .externalNativeBuild
 .cxx
-local.properties
+
+# IDE & Tooling
+/.idea
+/.artifacts
+/.kotlin
+
+# Keystores & Release Outputs
+*.jks
+*.keystore
+/New folder/
+/app/release/
+/release/
+
+# Configs & Assets
+app/src/main/assets/template.PDF
+app/src/main/assets/Bomb/
+app/src/main/java/com/example/myuni/supabase/SupabaseConfig.kt
