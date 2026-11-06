@@ -1,34 +1,33 @@
 package com.example.myuni.ui.theme
 
 import androidx.compose.material3.Typography
-import androidx.compose.ui.text.TextStyle
+import androidx.compose.ui.text.font.Font
 import androidx.compose.ui.text.font.FontFamily
 import androidx.compose.ui.text.font.FontWeight
-import androidx.compose.ui.unit.sp
+import com.example.myuni.R
 
-// Set of Material typography styles to start with
+val Vazirmatn = FontFamily(
+    Font(R.font.vazirmatn_fd_regular, FontWeight.Normal),
+    Font(R.font.vazirmatn_fd_medium, FontWeight.Medium),
+    Font(R.font.vazirmatn_fd_bold, FontWeight.Bold)
+)
+
+private val base = Typography()
+
 val Typography = Typography(
-    bodyLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 16.sp,
-        lineHeight = 24.sp,
-        letterSpacing = 0.5.sp
-    )
-    /* Other default text styles to override
-    titleLarge = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Normal,
-        fontSize = 22.sp,
-        lineHeight = 28.sp,
-        letterSpacing = 0.sp
-    ),
-    labelSmall = TextStyle(
-        fontFamily = FontFamily.Default,
-        fontWeight = FontWeight.Medium,
-        fontSize = 11.sp,
-        lineHeight = 16.sp,
-        letterSpacing = 0.5.sp
-    )
-    */
+    displayLarge = base.displayLarge.copy(fontFamily = Vazirmatn),
+    displayMedium = base.displayMedium.copy(fontFamily = Vazirmatn),
+    displaySmall = base.displaySmall.copy(fontFamily = Vazirmatn),
+    headlineLarge = base.headlineLarge.copy(fontFamily = Vazirmatn),
+    headlineMedium = base.headlineMedium.copy(fontFamily = Vazirmatn),
+    headlineSmall = base.headlineSmall.copy(fontFamily = Vazirmatn),
+    titleLarge = base.titleLarge.copy(fontFamily = Vazirmatn),
+    titleMedium = base.titleMedium.copy(fontFamily = Vazirmatn),
+    titleSmall = base.titleSmall.copy(fontFamily = Vazirmatn),
+    bodyLarge = base.bodyLarge.copy(fontFamily = Vazirmatn),
+    bodyMedium = base.bodyMedium.copy(fontFamily = Vazirmatn),
+    bodySmall = base.bodySmall.copy(fontFamily = Vazirmatn),
+    labelLarge = base.labelLarge.copy(fontFamily = Vazirmatn),
+    labelMedium = base.labelMedium.copy(fontFamily = Vazirmatn),
+    labelSmall = base.labelSmall.copy(fontFamily = Vazirmatn)
 )
